@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "787979042970",
-    "project_id": "lab-week-05-d16c3",
-    "storage_bucket": "lab-week-05-d16c3.appspot.com"
+    "project_number": "976645377",
+    "project_id": "lab-week-05-1d88e",
+    "storage_bucket": "lab-week-05-1d88e.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:787979042970:android:8e330a23244a309911df23",
+        "mobilesdk_app_id": "1:976645377:android:b547cbed9f03c980d87f00",
         "android_client_info": {
-          "package_name": "example.example.lab_week_05"
+          "package_name": "com.example.lab_week_05"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyAoPPmp6z77SGrBTjmhOvXkz5iOIWDBZ8Q"
+          "current_key": "AIzaSyBDtE8lmf4Fhxm5CNhRcqd97yiRoJ0TmnQ"
         }
       ],
       "services": {

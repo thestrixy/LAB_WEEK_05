@@ -1,44 +1,26 @@
 {
   "project_info": {
-    "project_number": "36076232470",
-    "project_id": "lab-week-05",
-    "storage_bucket": "lab-week-05.appspot.com"
+    "project_number": "787979042970",
+    "project_id": "lab-week-05-d16c3",
+    "storage_bucket": "lab-week-05-d16c3.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:36076232470:android:11f722ba44c6a71eb87a37",
+        "mobilesdk_app_id": "1:787979042970:android:8e330a23244a309911df23",
         "android_client_info": {
-          "package_name": "com.example.lab_week_05"
+          "package_name": "example.example.lab_week_05"
         }
       },
-      "oauth_client": [
-        {
-          "client_id": "36076232470-hm75emmfem3c27j49codpdc4oejr6e81.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.example.lab_week_05",
-            "certificate_hash": "91c24974dac56f1df31a5468e2b71002d6b21802"
-          }
-        },
-        {
-          "client_id": "36076232470-gd2boj0ad5c6emkd2utv95p44eeov5rj.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
+      "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyCZISOcMT4Ko2QbdrjysKPBWpWbWM5aeoM"
+          "current_key": "AIzaSyAoPPmp6z77SGrBTjmhOvXkz5iOIWDBZ8Q"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "36076232470-gd2boj0ad5c6emkd2utv95p44eeov5rj.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
+          "other_platform_oauth_client": []
         }
       }
     }

@@ -12,16 +12,7 @@ import androidx.navigation.fragment.findNavController
 import com.google.android.material.textfield.TextInputEditText
 import com.google.firebase.auth.FirebaseAuth
 
-// TODO: Rename parameter arguments, choose names that match
-// the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-private const val ARG_PARAM1 = "param1"
-private const val ARG_PARAM2 = "param2"
 
-/**
- * A simple [Fragment] subclass.
- * Use the [RegisterFragment.newInstance] factory method to
- * create an instance of this fragment.
- */
 class RegisterFragment : Fragment() {
     private lateinit var auth: FirebaseAuth
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -56,7 +47,8 @@ class RegisterFragment : Fragment() {
                             findNavController().navigate(R.id.loginFragment)
                         } else {
                             Log.w("Register", "RegisterWithEmail:failure", task.exception)
-                            Toast.makeText(requireContext(), "Register Failed${task.exception?.message}", Toast.LENGTH_SHORT).show()
+                            Toast.makeText(requireContext(), "Register Failed" +
+                                    "${task.exception?.message}", Toast.LENGTH_SHORT).show()
                         }
                     }
             }
